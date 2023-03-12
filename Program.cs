@@ -36,11 +36,23 @@
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
 //является ли число чётным (делится ли оно на два без остатка(number%2==0)).
 
+// Console.Write("Введите чило: ");
+// int cell = int.Parse(Console.ReadLine()!);
+// if (cell%2 == 0){
+//     Console.Write($"{cell} Чётное число");
+// }
+// else{
+// Console.Write($"{cell} Нечётное число");
+// }
+
+
+//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает 
+//все чётные числа от 1 до N
+
 Console.Write("Введите чило: ");
-int cell = int.Parse(Console.ReadLine()!);
-if (cell%2 == 0){
-    Console.Write($"{cell} Чётное число");
-}
-else{
-Console.Write($"{cell} Нечётное число");
+int N = int.Parse(Console.ReadLine()!);
+int A = 2;
+while(A<N){
+    Console.Write($"{A} ");
+    A = A+2;
 }
