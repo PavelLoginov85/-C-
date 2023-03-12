@@ -31,3 +31,16 @@
 // else if(num3 > num2 && num3 > num1){
 //     Console.Write($"Максимальное число {num3}");
 // }
+
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
+//является ли число чётным (делится ли оно на два без остатка(number%2==0)).
+
+Console.Write("Введите чило: ");
+int cell = int.Parse(Console.ReadLine()!);
+if (cell%2 == 0){
+    Console.Write($"{cell} Чётное число");
+}
+else{
+Console.Write($"{cell} Нечётное число");
+}
